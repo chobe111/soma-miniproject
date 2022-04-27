@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" type="text/css" href="./main.css">
+    </head>
+    <body>
+        <header>
+            <div class="header-logo"></div>
+        </header>
+
+        <form class="form-container">
+            <div><h1>나와 잘 맞는 연수생은 누구일까요? 😃😛 </h1></div>
+
+            <div class="input-container">
+                <div>이름</div>
+                <input type="text" id="name" placeholder="홍길동">
+            </div>
+
+            <div class="input-container">
+                <div>MBTI</div>
+                <input type="text" id="name" placeholder="ENFP">
+            </div>
+            
+            <div class="input-container">
+                <div>팀 매칭 여부</div>
+                <div class="radio-group">
+                    <div class="radio-item">
+                        <input type="radio" id="YES" value="YES" name="g">
+                        <label for="YES"></label>
+                        <span>YES</span>
+                    </div>
+                    <div class="radio-item">
+                        <input type="radio" id="NO" value="NO" name="g">
+                        <label for="NO"></label>
+                        <span>NO</span>
+                    </div>
+                </div>
+            </div>
+            
+            <button type="submit"  class="btn-start">검사</button>
+        </form>
+        
+        <script type="text/javascript" src="./main.js"></script>
+    </body>
+</html>
