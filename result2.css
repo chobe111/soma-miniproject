@@ -1,0 +1,32 @@
+.table-container {
+    display: grid;
+    grid-template-columns: 1fr 5fr 5fr 4fr 2fr;
+    width: 800px;
+}
+
+.head-cell{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    font-size: 16px;
+}
+
+.table-head-container {
+    display: contents;
+}
+
+.table-body-container {
+    display: contents;
+}
+
+.cell{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+
+.row {
+    display: contents;
+}
